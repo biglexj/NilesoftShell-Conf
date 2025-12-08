@@ -21,7 +21,7 @@
 
 		text
 		{
-			normal = #0F7585
+			normal = #1392a5ff
 			select = #29CCD0
 			normal-disabled = #0F758580
 			select-disabled = #29CCD080
