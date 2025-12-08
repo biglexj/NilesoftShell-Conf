@@ -7,10 +7,10 @@
 	tip.enabled=true
 }
 
-import 'E:\Assets\Themes\NilesoftShell\imports/theme.nss'
-import 'E:\Assets\Themes\NilesoftShell\imports/images.nss'
-import 'E:\Assets\Themes\NilesoftShell\imports/modify.nss'
-import 'E:\Assets\Themes\NilesoftShell\imports/remove.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/theme.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/images.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/modify.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/remove.nss'
 
 // VS Code solo para archivos editables
 item(where=str.equals(sel.file.ext, ['txt','md','json','xml','html','css','js','ts','tsx','jsx','py','cs','cpp','c','h','java','php','rb','go','rs','sql','yaml','yml','toml','ini','cfg','conf','log','sh','bat','ps1','nss'])
@@ -39,8 +39,8 @@ menu(mode="multiple" title=title.more_options image=icon.more_options)
 {
 }
 
-import 'E:\Assets\Themes\NilesoftShell\imports/terminal.nss'
-import 'E:\Assets\Themes\NilesoftShell\imports/file-manage.nss'
-import 'E:\Assets\Themes\NilesoftShell\imports/develop.nss'
-import 'E:\Assets\Themes\NilesoftShell\imports/goto.nss'
-import 'E:\Assets\Themes\NilesoftShell\imports/taskbar.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/terminal.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/file-manage.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/develop.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/goto.nss'
+import 'D:\Assets\Themes\NilesoftShell\imports/taskbar.nss'
