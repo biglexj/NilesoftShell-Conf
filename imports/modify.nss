@@ -24,10 +24,14 @@ modify(find="Open with Prisma" title="Abrir con Prisma" image='D:\Proyectos\4. T
 modify(find="Prisma" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\prisma.png')
 
 // Asignar icono a Elegir otra aplicación (mismo icono de Abrir)
-modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
-modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app" in="*Abrir con*|*Open with*|Abrir con|Open with|/Abrir con|/Open with" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
-modify(where=str.contains(this.name, "otra") || str.contains(this.title, "otra") || str.contains(this.name, "elegir") || str.contains(this.title, "elegir") || str.contains(this.name, "openas") image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
-modify(in="*Abrir con*|*Open with*|Abrir con|Open with|/Abrir con|/Open with" where=str.contains(this.name, "otra") || str.contains(this.title, "otra") || str.contains(this.name, "elegir") || str.contains(this.title, "elegir") || str.contains(this.name, "openas") image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app|*otra*" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app|*otra*" in="Abrir con" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app|*otra*" in="/Abrir con" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app|*otra*" in="Abrir &con" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app|*otra*" in="/Abrir &con" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app|*otra*" parent="Abrir con" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(where=str.equals(this.name, ['Elegir otra aplicación', '&Elegir otra aplicación', 'Elegir &otra aplicación', 'Choose another app', '&Choose another app', 'openas']) image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(where=str.equals(this.title, ['Elegir otra aplicación', '&Elegir otra aplicación', 'Elegir &otra aplicación', 'Choose another app', '&Choose another app', 'openas']) image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
 
 // Icono global para Abrir, Abrir en nueva pestaña y Abrir en nueva ventana
 // Icono global para Abrir (coincidencia exacta para no afectar submenús ni Abrir con Prisma)
