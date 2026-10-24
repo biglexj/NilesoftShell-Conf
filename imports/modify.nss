@@ -27,8 +27,12 @@ modify(find="Prisma" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons
 modify(find="*Elegir otra*|*otra aplicaci*|*otra aplicación*|*Choose another*|*otra app*|&Elegir otra aplicación|Elegir otra aplicación|Choose another app|&Choose another app" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open_with.png')
 
 // Icono global para Abrir, Abrir en nueva pestaña y Abrir en nueva ventana
-modify(find="Abrir|&Abrir|Open|&Open" image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
-modify(type="dir" find="Abrir|&Abrir|Open|&Open" image=icon.open_folder)
+// Icono global para Abrir (coincidencia exacta para no afectar submenús ni Abrir con Prisma)
+modify(where=str.equals(this.name, ['Abrir', '&Abrir', 'Open', '&Open']) image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\open.png')
+modify(type='dir' where=str.equals(this.name, ['Abrir', '&Abrir', 'Open', '&Open']) image=icon.open_folder)
+// Reafirmar icono de Prisma
+modify(find='*Prisma*' image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\prisma.png')
+modify(find='Open with Prisma' title='Abrir con Prisma' image='D:\Proyectos\4. Temas\2. Windows\NilesoftShell\icons\prisma.png')
 modify(find="*nueva pestaña*|*new tab*" image=icon.open_new_tab)
 modify(find="*nueva ventana*|*new window*" image=icon.open_new_window)
 
