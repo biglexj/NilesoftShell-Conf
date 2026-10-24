@@ -36,6 +36,10 @@ E:\Assets\Themes\NilesoftShell\
 
 ## ✨ Características
 
+### Enlaces de carpetas
+
+El menú **Enlaces de carpetas** permite seleccionar una carpeta real y crear una junction en otra ubicación, sin duplicar archivos ni sobrescribir carpetas. Se integra desde `imports/file-manage.nss` y usa el helper local `scripts/junction-menu.ps1`. Consulta [uso y límites](scripts/README.md). Para cargar los cambios, Ctrl + clic derecho en el escritorio o la barra de tareas.
+
 ### VS Code Inteligente
 - Aparece solo en archivos editables (código, texto, configs)
 - Opción para abrir carpetas completas
@@ -61,12 +65,12 @@ Apps configuradas:
 
 ### Rutas Rápidas Personalizadas
 ```
-E:\Descargas
-E:\Documentos
-E:\Imágenes
-E:\Música
-E:\Vídeos
-E:\Proyectos
+D:\Descargas
+D:\Documentos
+D:\Imágenes
+D:\Música
+D:\Vídeos
+D:\Proyectos
 ```
 
 ### Aplicaciones en Taskbar

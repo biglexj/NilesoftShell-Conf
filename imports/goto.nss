@@ -3,12 +3,12 @@ menu(type='*' where=window.is_taskbar||sel.count mode=mode.multiple title=title.
 	menu(title='Rutas' image=\uE1F4)
 	{
 		//Mis rutas
-		item(title='Descargas' image=inherit cmd='E:\Descargas')
-		item(title='Documentos' image=inherit cmd='E:\Documentos')
-		item(title='Imágenes' image=inherit cmd='E:\Imágenes')
-		item(title='Música' image=inherit cmd='E:\Música')
-		item(title='Vídeos' image=inherit cmd='E:\Vídeos')
-		item(title='Proyectos' image=inherit cmd='E:\Proyectos')
+		item(title='Descargas' image=inherit cmd='D:\Descargas')
+		item(title='Documentos' image=inherit cmd='D:\Documentos')
+		item(title='Imágenes' image=inherit cmd='D:\Imágenes')
+		item(title='Música' image=inherit cmd='D:\Música')
+		item(title='Vídeos' image=inherit cmd='D:\Vídeos')
+		item(title='Proyectos' image=inherit cmd='D:\Proyectos')
 		separator
 		item(title='Windows' image=inherit cmd=sys.dir)
 		item(title='Sistema' image=inherit cmd=sys.bin)
