@@ -68,6 +68,6 @@
 	image
 	{
 		enabled = true
-		color = [@if(theme.islight, #475569, #FBFDFF), #29CCD0, #0F7585]
+		color = [@if(theme.islight, #0F7585, #FBFDFF), #29CCD0, @if(theme.islight, #CBD5E1, #0F7585)]
 	}
 }
