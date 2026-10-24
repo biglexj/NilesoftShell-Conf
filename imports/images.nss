@@ -350,7 +350,7 @@ $svg_window_template='<path fill="@image.color1" d="M3.453 15C3.12 15 2.805 14.9
   <path fill="@image.color1" fill-rule="evenodd" d="M0 3a2 2 0 012-2h3.75a2 2 0 011.6.8l.9 1.2H13a2 2 0 012 2v.14a1.5 1.5 0 01.83 1.56l-.91 6.56A2 2 0 0112.94 15H2a2 2 0 01-2-2V3zm14 2a1 1 0 00-1-1H7.75l-1.2-1.6a1 1 0 00-.8-.4H2a1 1 0 00-1 1v9.73l1.26-6.13A2 2 0 014.22 5H14zM1.76 13.97c.07.01.15.02.23.02h10.94a1 1 0 00.99-.86l.91-6.57A.5.5 0 0014.35 6H4.22a1 1 0 00-.97.79l-1.47 7.17z"/>
 </svg>'
 
-@open_new_window, open_in_new_window, open_in_new_process, choose_another_app, choose_another, openas, open_as, elegir_otra_aplicacion, elegir_otra_aplicación, elegir_otra_app='<svg fill="none" viewBox="0 0 16 16">
+@open, open, @open_new_window, open_in_new_window, open_in_new_process, choose_another_app, choose_another, openas, open_as, elegir_otra_aplicacion, elegir_otra_aplicación, elegir_otra_app='<svg fill="none" viewBox="0 0 16 16">
   <path fill="@image.color2" d="M8 1.5a.5.5 0 01.5-.5h6a.5.5 0 01.5.5v6a.5.5 0 01-1 0V2.70L7.85 8.85a.5.5 0 11-.70-.70L13.29 2H8.5a.5.5 0 01-.5-.5z"/>
   <path fill="@image.color1" d="M1 4.5A2.5 2.5 0 013.5 2h3a.5.5 0 010 1h-3A1.5 1.5 0 002 4.5v8A1.5 1.5 0 003.5 14h8a1.5 1.5 0 001.5-1.5v-3a.5.5 0 011 0v3a2.5 2.5 0 01-2.5 2.5h-8A2.5 2.5 0 011 12.5v-8z"/>
 </svg>'
